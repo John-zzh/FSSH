@@ -6,7 +6,7 @@ Project Scope:
 
 We will be using the `eigen` math library for basic linear algebra operations.
 
-## Getting Started: Setting up Your C++ Environment
+## Getting Started: Setting up Your C++ Environment (on a MacOS)
 
 1. Get a text editor with line numbers
   - [Atom](https://atom.io/) is a really nice one. Once you install it, you can add the [clang-format](https://atom.io/packages/clang-format) package which will automatically reformat your C++ code to look pretty every time you save it.
@@ -18,7 +18,8 @@ We will be using the `eigen` math library for basic linear algebra operations.
   ```
 
 3. Pull the `toyFSSH` project repo from GitLab
-  - With an SSH key: `git clone git@gitlab.com:team-parker/toyfssh_cpp.git`
+  - First, create a fork of the project under your own personal namespace. Check out [this link](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) for instructions.
+  - Then clone a copy of the forked repository to your personal repository: `git clone <input-from-SSH-key>`
 
 4. Make a directory named `build` on the same level as the `src` directory. From this `build` directory, run `cmake ../src/` from the command line. You should see the following output:
 ```
