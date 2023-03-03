@@ -30,6 +30,12 @@ std::mt19937 gen(rd());  // Standard mersenne_twister_engine seeded with rd()
 std::uniform_real_distribution<> dis(0.0, 1.0);
 
 
+
+//    voind {MatrixXd A(2,2), update A
+
+// avoid global variable, just make a documentclass
+// make_unique
+
 int sign(double x){
   double result;
    if (x > 0){
